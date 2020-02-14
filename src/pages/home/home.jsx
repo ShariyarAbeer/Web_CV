@@ -29,7 +29,7 @@ class Home extends Component {
               </div>
               <Menu.Item key="1">
                 <Icon type="video-camera" />
-                <span className="nav-text">nav 10000</span>
+                <span className="nav-text">nav 1 </span>
               </Menu.Item>
               <Menu.Item key="2">
                 <Icon type="upload" />
