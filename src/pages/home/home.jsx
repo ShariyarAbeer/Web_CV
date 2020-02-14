@@ -19,7 +19,7 @@ class Home extends Component {
             }}
           >
             <div className="logo" />
-            <Menu theme="dark" mode="inline" defaultSelectedKeys={["4"]}>
+            <Menu theme="dark" mode="inline" defaultSelectedKeys={["1"]}>
               <div theme="dark">
                 <Avatar
                   style={{ margin: 40 }}
