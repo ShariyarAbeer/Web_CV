@@ -69,7 +69,7 @@ class Home extends Component {
               </div>
             </Content>
             <Footer style={{ textAlign: "center" }}>
-              Design ©2020 Created by Abeer
+              Design ©2020 Created by Md.Arif Shariyar
             </Footer>
           </Layout>
         </Layout>
