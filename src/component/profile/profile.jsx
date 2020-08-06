@@ -1,11 +1,57 @@
 import React, { Component } from "react";
+import { Table } from "antd";
 
 class Profile extends Component {
 	state = {};
 	render() {
+		const dataSource = [
+			{
+				key: "1",
+				name: "Mike",
+				age: 32,
+				address: "10 Downing Street",
+			},
+			{
+				key: "2",
+				name: "John",
+				age: 42,
+				address: "10 Downing Street",
+			},
+			{
+				key: "2",
+				name: "John",
+				age: 42,
+				address: "10 Downing Street",
+			},
+		];
+
+		const columns = [
+			{
+				title: "Name",
+				dataIndex: "name",
+				key: "name",
+			},
+			{
+				title: "Age",
+				dataIndex: "age",
+				key: "age",
+			},
+			{
+				title: "Address",
+				dataIndex: "address",
+				key: "address",
+			},
+		];
+
 		return (
 			<div>
-				<h1>Profile</h1>
+				<h1>CV List</h1>
+				<Table
+					dataSource={dataSource}
+					columns={columns}
+					pagination={{ pageSize: 20 }}
+				/>
+				;
 			</div>
 		);
 	}
