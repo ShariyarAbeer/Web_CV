@@ -41,6 +41,11 @@ class Home extends Component {
 							console.log(collapsed, type);
 						}}
 					>
+						<div style={{textAlign:"center", fontSize:30, marginTop:20, color:"white" }}>
+						<span>Web CV</span>
+
+						</div>
+						
 						<div className="logo" />
 
 						<Menu
@@ -92,7 +97,7 @@ class Home extends Component {
 								<Route path="/work" component={Work} />
 							</div>
 						</Content>
-						<Footer style={{ textAlign: "center" }}>
+						<Footer style={{ textAlignLast:"center", position:"fixed", bottom:"0",right:"0"  }}>
 							Ant Design ©2018 Created by Abeer
 						</Footer>
 					</Layout>
